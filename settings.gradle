@@ -1,0 +1,2 @@
+include ':app', ':mysql', ':qqdragview', ':myffmpeg', ':waterwaveview', ':myreaderview'
+rootProject.name='ShareProject'

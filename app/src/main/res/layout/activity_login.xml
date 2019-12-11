@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:background="@color/colorAccent"
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <com.mao.shareproject.ui.view.DispatchViewGroup
+        android:id="@+id/login_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.mao.shareproject.ui.view.DispatchView
+            android:id="@+id/dispatchview1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary" />
+
+        <com.mao.shareproject.ui.view.DispatchView2
+            android:layout_width="match_parent"
+            android:id="@+id/dispatchview2"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent" />
+
+    </com.mao.shareproject.ui.view.DispatchViewGroup>
+
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+<!--    <Button-->
+<!--        android:id="@+id/button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:onClick="reset"-->
+<!--        android:text="重置"-->
+<!--        />-->
+
+<!--    <com.mao.shareproject.ui.view.DispatchViewGroup-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="100dp">-->
+<!--    -->
+<!--      <com.mao.qqdragview.DragView-->
+<!--          android:id="@+id/bubbleView"-->
+<!--          android:layout_width="wrap_content"-->
+<!--          android:layout_height="wrap_content"-->
+<!--          android:text="Hello World!"-->
+<!--          app:bubble_color="#ff0000"-->
+<!--          app:bubble_radius="12dp"-->
+<!--          app:bubble_text="12"-->
+<!--          app:bubble_textColor="@android:color/white"-->
+<!--          app:bubble_textSize="12dp">-->
+
+<!--      </com.mao.qqdragview.DragView>-->
+
+<!--    </com.mao.shareproject.ui.view.DispatchViewGroup>-->
+
+
+    <com.mao.shareproject.ui.view.DispatchViewGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+<!--        <com.mao.waterwaveview.WaterWaveView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            />-->
+        
+<!--        <com.mao.waterwaveview.PathTest-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"/>-->
+
+
+<!--        <com.mao.myreaderview.MyReaderView-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_width="match_parent"-->
+<!--            />-->
+<!--        -->
+
+    </com.mao.shareproject.ui.view.DispatchViewGroup>
+
+
+
+
+</LinearLayout>
